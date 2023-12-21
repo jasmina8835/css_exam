@@ -268,8 +268,8 @@ aside{
     border: none;
     border-radius: 5px;
     position: relative;
-    top: -550px;
-    left: 850px;
+    margin-top: -550px;
+    margin-left: 860px;
 }
 
 .aside_input{
@@ -280,7 +280,7 @@ aside{
 }
 
 .input{
-    padding: 3% 8%;
+    padding: 3% 0;
     padding-left: 15px;
     border: none;
     border-radius: 5px;
@@ -314,6 +314,7 @@ aside{
 
 footer{
     padding: 5%;
+    margin-top: 5%;
     background-color: #333333;
     color: #FFFFFF;
     display: flex;
@@ -350,6 +351,26 @@ footer{
 @media (max-width: 1286px){
     .main_child{
         flex-wrap: wrap;
+    }
+    .art_img{
+        display: none;
+    }
+    aside{
+        position: relative;
+        margin-top: 0;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1235px){
+    .art_child{
+        flex-wrap: wrap;
+    }
+    .img_box1{
+        margin: 50px 0;
+    }
+    .img_box3{
+        margin: 50px 0;
     }
 }
 
@@ -389,6 +410,18 @@ footer{
     }
     section img{
         width: 400px;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .footer1{
+        margin: 20px 0;
+    }
+    .footer2{
+        margin: 20px 0;
+    }
+    .footer3{
+        margin: 20px 0;
     }
 }
 
@@ -464,6 +497,27 @@ footer{
 @media (max-width: 470px) {
     .content_child{
         width: 300px;
+    }
+}
+
+@media (max-width: 465px) {
+    .input{
+        padding: 3% 5%;
+    }
+}
+
+@media (max-width: 435px) {
+    aside{
+        width: 350px;
+    }
+    .input{
+        width: 310px;
+    }
+    .input4{
+        width: 140px;
+    }
+    .input5{
+        width: 140px;
     }
 }
 
